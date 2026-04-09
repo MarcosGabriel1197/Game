@@ -1,305 +1,244 @@
 {
   "perguntas": [
     {
-      "enunciado": "O que é um algoritmo?",
+      "enunciado": "O que é uma classe em POO?",
       "alternativas": [
+        "Um tipo de variável",
+        "Um modelo para criar objetos",
+        "Um método de repetição",
+        "Um erro de compilação"
+      ],
+      "resposta_correta": 1,
+      "explicacao": "Uma classe é um molde que define atributos e métodos para criar objetos.",
+      "dica": "Pense como a planta de uma casa antes de construí-la."
+    },
+    {
+      "enunciado": "O que é um objeto em POO?",
+      "alternativas": [
+        "Uma função",
+        "Uma instância de uma classe",
         "Um tipo de dado primitivo",
-        "Um conjunto de instruções para resolver um problema",
-        "Um erro de compilação",
-        "Um componente físico do computador"
+        "Um loop"
+      ],
+      "resposta_correta": 1,
+      "explicacao": "Um objeto é uma instância de uma classe, contendo dados e comportamentos.",
+      "dica": "Se a classe é o molde, o objeto é o produto final."
+    },
+    {
+      "enunciado": "O que são atributos em uma classe?",
+      "alternativas": [
+        "Funções da classe",
+        "Variáveis que armazenam dados do objeto",
+        "Estruturas de repetição",
+        "Erros do sistema"
+      ],
+      "resposta_correta": 1,
+      "explicacao": "Atributos representam as características dos objetos.",
+      "dica": "São as 'informações' que o objeto guarda."
+    },
+    {
+      "enunciado": "O que são métodos em uma classe?",
+      "alternativas": [
+        "Variáveis internas",
+        "Ações que o objeto pode realizar",
+        "Tipos de dados",
+        "Loops condicionais"
+      ],
+      "resposta_correta": 1,
+      "explicacao": "Métodos são funções definidas dentro da classe que representam comportamentos.",
+      "dica": "São as ações que o objeto pode executar."
+    },
+    {
+      "enunciado": "O que é encapsulamento?",
+      "alternativas": [
+        "Esconder detalhes internos e proteger dados",
+        "Repetir código automaticamente",
+        "Criar várias classes iguais",
+        "Executar código mais rápido"
+      ],
+      "resposta_correta": 0,
+      "explicacao": "Encapsulamento protege os dados, controlando o acesso através de métodos.",
+      "dica": "É como um cofre: você não acessa tudo diretamente."
+    },
+    {
+      "enunciado": "O que é herança em POO?",
+      "alternativas": [
+        "Copiar código manualmente",
+        "Uma classe herdar características de outra",
+        "Criar variáveis globais",
+        "Executar métodos automaticamente"
+      ],
+      "resposta_correta": 1,
+      "explicacao": "Herança permite que uma classe reutilize atributos e métodos de outra.",
+      "dica": "Como um filho herdando características dos pais."
+    },
+    {
+      "enunciado": "O que é polimorfismo?",
+      "alternativas": [
+        "Um erro de execução",
+        "Capacidade de um método ter diferentes comportamentos",
+        "Uma variável global",
+        "Um tipo de loop"
+      ],
+      "resposta_correta": 1,
+      "explicacao": "Polimorfismo permite que o mesmo método se comporte de formas diferentes.",
+      "dica": "Uma ação que muda dependendo do contexto."
+    },
+    {
+      "enunciado": "O que é abstração?",
+      "alternativas": [
+        "Mostrar todos os detalhes do sistema",
+        "Ocultar complexidade e mostrar apenas o essencial",
+        "Executar código automaticamente",
+        "Criar variáveis"
+      ],
+      "resposta_correta": 1,
+      "explicacao": "Abstração foca apenas nos aspectos importantes, escondendo detalhes complexos.",
+      "dica": "Você usa um carro sem saber como o motor funciona."
+    },
+    {
+      "enunciado": "O que é um construtor?",
+      "alternativas": [
+        "Um método especial para criar objetos",
+        "Uma variável global",
+        "Um loop infinito",
+        "Um erro de sintaxe"
+      ],
+      "resposta_correta": 0,
+      "explicacao": "Construtores inicializam objetos quando são criados.",
+      "dica": "É o 'nascimento' do objeto."
+    },
+    {
+      "enunciado": "O que é sobrecarga de métodos?",
+      "alternativas": [
+        "Erro no código",
+        "Criar métodos com o mesmo nome mas parâmetros diferentes",
+        "Repetir código",
+        "Excluir métodos"
+      ],
+      "resposta_correta": 1,
+      "explicacao": "Sobrecarga permite múltiplas versões de um método.",
+      "dica": "Mesmo nome, comportamentos diferentes."
+    },
+    {
+      "enunciado": "O que é sobrescrita (override)?",
+      "alternativas": [
+        "Apagar um método",
+        "Substituir um método da classe pai",
+        "Criar variável nova",
+        "Duplicar código"
+      ],
+      "resposta_correta": 1,
+      "explicacao": "Sobrescrita permite alterar o comportamento herdado.",
+      "dica": "Reescrever o que já existia."
+    },
+    {
+      "enunciado": "O que é uma classe abstrata?",
+      "alternativas": [
+        "Uma classe que não pode ser instanciada",
+        "Uma variável global",
+        "Um tipo de loop",
+        "Um erro"
+      ],
+      "resposta_correta": 0,
+      "explicacao": "Classes abstratas servem como base e não podem criar objetos diretamente.",
+      "dica": "É um modelo incompleto."
+    },
+    {
+      "enunciado": "O que é uma interface?",
+      "alternativas": [
+        "Uma classe comum",
+        "Um contrato que define métodos sem implementação",
+        "Uma variável",
+        "Um tipo de banco de dados"
+      ],
+      "resposta_correta": 1,
+      "explicacao": "Interfaces definem o que deve ser feito, não como.",
+      "dica": "É um acordo de implementação."
+    },
+    {
+      "enunciado": "O que significa instanciar um objeto?",
+      "alternativas": [
+        "Apagar uma classe",
+        "Criar um objeto a partir de uma classe",
+        "Executar um loop",
+        "Declarar variável"
+      ],
+      "resposta_correta": 1,
+      "explicacao": "Instanciar é criar um objeto baseado em uma classe.",
+      "dica": "Transformar o molde em algo real."
+    },
+    {
+      "enunciado": "O que é visibilidade 'private'?",
+      "alternativas": [
+        "Acesso livre",
+        "Acesso restrito à própria classe",
+        "Acesso global",
+        "Acesso externo"
+      ],
+      "resposta_correta": 1,
+      "explicacao": "Private restringe o acesso apenas dentro da classe.",
+      "dica": "Segredo interno da classe."
+    },
+    {
+      "enunciado": "O que é visibilidade 'public'?",
+      "alternativas": [
+        "Acesso restrito",
+        "Acesso apenas interno",
+        "Acesso liberado para qualquer classe",
+        "Acesso proibido"
       ],
       "resposta_correta": 2,
-      "explicacao": "Um algoritmo é uma sequência lógica e finita de instruções para resolver um problema.",
-      "dica": "Pense em uma receita de bolo — uma sequência de passos para chegar a um resultado."
+      "explicacao": "Public permite acesso de qualquer lugar.",
+      "dica": "Porta aberta para todos."
     },
-
     {
-      "enunciado": "Qual é a função principal de uma estrutura de dados?",
+      "enunciado": "O que é composição em POO?",
       "alternativas": [
-        "Organizar e armazenar dados eficientemente",
-        "Aumentar a velocidade da CPU",
-        "Gerar gráficos automaticamente",
-        "Criar interfaces visuais"
+        "Uma classe contém outra como parte dela",
+        "Copiar código",
+        "Criar loops",
+        "Executar funções"
       ],
       "resposta_correta": 0,
-      "explicacao": "As estruturas de dados permitem armazenar e manipular informações de forma eficiente.",
-      "dica": "Lembre-se: listas, filas e pilhas são usadas para organizar informações."
+      "explicacao": "Composição representa relação de 'tem um'.",
+      "dica": "Um carro tem um motor."
     },
     {
-      "enunciado": "Em programação, qual estrutura é usada para repetir instruções?",
+      "enunciado": "O que é associação em POO?",
       "alternativas": [
-        "Laço de repetição",
-        "Função",
-        "Condicional",
-        "Classe"
+        "Relação entre objetos",
+        "Erro de código",
+        "Tipo de variável",
+        "Loop"
       ],
       "resposta_correta": 0,
-      "explicacao": "Laços de repetição (for, while) executam blocos de código várias vezes enquanto uma condição for verdadeira.",
-      "dica": "Pense nas estruturas que executam algo várias vezes até uma condição mudar."
+      "explicacao": "Associação representa conexão entre objetos.",
+      "dica": "Objetos que se comunicam."
     },
     {
-      "enunciado": "Qual das opções representa um tipo de variável em Python?",
+      "enunciado": "O que é agregação?",
       "alternativas": [
-        "float",
-        "if",
-        "while",
-        "def"
-      ],
-      "resposta_correta": 0,
-      "explicacao": "Em Python, 'float' é um tipo de dado numérico de ponto flutuante.",
-      "dica": "É um tipo numérico que pode ter casas decimais."
-    },
-    {
-      "enunciado": "O que é um compilador?",
-      "alternativas": [
-        "Um programa que converte código-fonte em código executável",
-        "Um interpretador de linguagem natural",
-        "Um tipo de processador",
-        "Um ambiente de desenvolvimento"
-      ],
-      "resposta_correta": 0,
-      "explicacao": "O compilador traduz o código-fonte de uma linguagem de alto nível para código de máquina executável.",
-      "dica": "Ele transforma o que o programador escreve em algo que o computador entende."
-    },
-    {
-      "enunciado": "Em uma estrutura de dados do tipo pilha (stack), o que significa LIFO?",
-      "alternativas": [
-        "Last In, First Out",
-        "Last In, Fast Out",
-        "Long Input, Fast Output",
-        "Large Index, First Output"
-      ],
-      "resposta_correta": 0,
-      "explicacao": "LIFO significa 'Last In, First Out', ou seja, o último elemento inserido é o primeiro a ser removido.",
-      "dica": "Pense em uma pilha de pratos: o último que você colocou é o primeiro que sai."
-    },
-    {
-      "enunciado": "Qual a função do Sistema Operacional?",
-      "alternativas": [
-        "Executar apenas programas de texto",
-        "Gerenciar recursos do hardware e software",
-        "Interpretar linguagens de programação",
-        "Criar códigos automaticamente"
+        "Relação forte de dependência",
+        "Relação onde objetos podem existir separadamente",
+        "Erro de sistema",
+        "Loop infinito"
       ],
       "resposta_correta": 1,
-      "explicacao": "O Sistema Operacional gerencia recursos e permite a comunicação entre o hardware e o software.",
-      "dica": "É o intermediário entre você e os componentes do computador."
+      "explicacao": "Na agregação, os objetos podem existir independentemente.",
+      "dica": "Eles estão juntos, mas não dependem totalmente."
     },
     {
-      "enunciado": "Em Engenharia de Software, o que representa o termo 'ciclo de vida do software'?",
+      "enunciado": "Qual o principal objetivo da POO?",
       "alternativas": [
-        "As etapas desde o planejamento até a manutenção do sistema",
-        "O tempo de execução do programa",
-        "A sequência de comandos de um algoritmo",
-        "A duração do hardware utilizado"
-      ],
-      "resposta_correta": 0,
-      "explicacao": "O ciclo de vida do software inclui todas as fases: análise, projeto, codificação, testes, implantação e manutenção.",
-      "dica": "Pense nas etapas que o software percorre desde a ideia até a manutenção."
-    },
-    {
-      "enunciado": "Qual modelo de processo de software é conhecido por suas fases lineares e sequenciais?",
-      "alternativas": [
-        "Modelo Cascata",
-        "Modelo Ágil",
-        "Modelo em Espiral",
-        "Modelo Incremental"
-      ],
-      "resposta_correta": 0,
-      "explicacao": "O modelo cascata segue uma sequência linear de fases, onde cada etapa depende da conclusão da anterior.",
-      "dica": "Esse modelo segue uma sequência rígida, fase por fase, sem voltar atrás."
-    },
-    {
-      "enunciado": "Qual é a principal característica das metodologias ágeis?",
-      "alternativas": [
-        "Iterações curtas e entregas contínuas",
-        "Planejamento rígido e extenso",
-        "Desenvolvimento sem testes",
-        "Foco em documentação detalhada"
-      ],
-      "resposta_correta": 0,
-      "explicacao": "Metodologias ágeis priorizam entregas rápidas, adaptação e colaboração constante com o cliente.",
-      "dica": "São métodos que valorizam a flexibilidade e a entrega rápida."
-    },
-    {
-      "enunciado": "Em Banco de Dados, o que é uma chave primária?",
-      "alternativas": [
-        "Um índice de performance",
-        "Um campo opcional de uma tabela",
-        "Um campo que identifica unicamente um registro",
-        "Um campo que permite valores duplicados"
-      ],
-      "resposta_correta": 2,
-      "explicacao": "A chave primária identifica de forma única cada registro de uma tabela.",
-      "dica": "É o que diferencia um registro de outro dentro da tabela."
-    },
-    {
-      "enunciado": "O que é uma foreign key (chave estrangeira)?",
-      "alternativas": [
-        "Uma chave que criptografa dados sensíveis",
-        "Uma chave que relaciona duas tabelas diferentes",
-        "Uma chave usada para ordenar registros",
-        "Uma chave temporária de acesso"
+        "Aumentar o tamanho do código",
+        "Organizar e reutilizar código de forma eficiente",
+        "Executar mais rápido sempre",
+        "Evitar uso de funções"
       ],
       "resposta_correta": 1,
-      "explicacao": "A chave estrangeira é usada para criar um relacionamento entre tabelas, referenciando a chave primária de outra.",
-      "dica": "Ela conecta uma tabela à outra através de uma coluna em comum."
-    },
-    {
-      "enunciado": "Em Redes de Computadores, qual é a função do protocolo TCP?",
-      "alternativas": [
-        "Garantir entrega confiável dos pacotes de dados",
-        "Atribuir endereços IP",
-        "Traduzir nomes de domínio",
-        "Comprimir arquivos para envio"
-      ],
-      "resposta_correta": 0,
-      "explicacao": "O protocolo TCP assegura que os dados sejam entregues corretamente e na ordem certa.",
-      "dica": "É o protocolo que garante que os dados cheguem completos e na sequência correta."
-    },
-    {
-      "enunciado": "Qual é a principal diferença entre TCP e UDP?",
-      "alternativas": [
-        "O UDP é mais lento que o TCP",
-        "O TCP é confiável e o UDP não",
-        "TCP é usado apenas para vídeos",
-        "Ambos são protocolos de roteamento"
-      ],
-      "resposta_correta": 1,
-      "explicacao": "TCP garante entrega confiável, enquanto o UDP prioriza velocidade sem verificação de erros.",
-      "dica": "Um é mais rápido, o outro é mais seguro. Pense em transmissões ao vivo."
-    },
-    {
-      "enunciado": "Em lógica de programação, qual é o valor booleano de (5 > 2) and (3 == 4)?",
-      "alternativas": [
-        "5",
-        "False",
-        "Erro de sintaxe",
-        "True"
-      ],
-      "resposta_correta": 1,
-      "explicacao": "A primeira condição é verdadeira, mas a segunda é falsa. Como é um 'and', o resultado final é False.",
-      "dica": "No operador AND, as duas condições precisam ser verdadeiras."
-    },
-    {
-      "enunciado": "O que é uma função recursiva?",
-      "alternativas": [
-        "Uma função que chama a si mesma",
-        "Uma função que nunca retorna valor",
-        "Uma função que só executa uma vez",
-        "Uma função que não possui parâmetros"
-      ],
-      "resposta_correta": 0,
-      "explicacao": "Funções recursivas chamam a si mesmas até atingir uma condição de parada.",
-      "dica": "Ela se repete até atingir uma condição de parada."
-    },
-    {
-      "enunciado": "O que significa IDE em programação?",
-      "alternativas": [
-        "Integrated Debug Editor",
-        "Integrated Development Environment",
-        "Interface Data Execution",
-        "Internal Data Engine"
-      ],
-      "resposta_correta": 1,
-      "explicacao": "IDE é um Ambiente de Desenvolvimento Integrado que reúne editor, compilador e depurador em um só lugar.",
-      "dica": "É o ambiente que você usa para escrever, testar e depurar o código."
-    },
-    {
-      "enunciado": "No contexto educacional, o que é o Pensamento Computacional?",
-      "alternativas": [
-        "Executar cálculos matemáticos rápidos",
-        "Capacidade de resolver problemas usando conceitos da computação",
-        "Aprender linguagens de programação",
-        "Trabalhar apenas com computadores"
-      ],
-      "resposta_correta": 1,
-      "explicacao": "Pensamento Computacional é uma forma de raciocínio lógico aplicada à resolução de problemas, inspirada na forma como computadores processam informações.",
-      "dica": "Está mais relacionado à forma de pensar do que ao uso de máquinas."
-    },
-    {
-      "enunciado": "Qual dos seguintes não é um paradigma de programação?",
-      "alternativas": [
-        "Procedural",
-        "Orientado a objetos",
-        "Numérico",
-        "Funcional"
-      ],
-      "resposta_correta": 2,
-      "explicacao": "O paradigma numérico não existe; os principais são o imperativo, orientado a objetos, funcional e lógico.",
-      "dica": "Lembre-se dos estilos mais conhecidos de organização de código."
-    },
-    {
-      "enunciado": "Qual o objetivo da disciplina de Didática na Licenciatura em Computação?",
-      "alternativas": [
-        "Ensinar linguagens de programação avançadas",
-        "Desenvolver jogos digitais apenas",
-        "Focar em hardware e redes",
-        "Ajudar o futuro professor a planejar e aplicar estratégias de ensino eficazes"
-      ],
-      "resposta_correta": 3,
-      "explicacao": "A Didática prepara o futuro docente para o planejamento, a mediação e a avaliação do processo de ensino-aprendizagem.",
-      "dica": "É a base pedagógica que ajuda o professor a ensinar melhor."
-    },
-    {
-      "enunciado": "O que é Inteligência Artificial (IA)?",
-      "alternativas": [
-        "Um software apenas para jogos",
-        "Capacidade de máquinas realizarem tarefas inteligentes",
-        "Uma rede de computadores",
-        "Um tipo de hardware avançado"
-      ],
-      "resposta_correta": 1,
-      "explicacao": "IA é a capacidade de sistemas computacionais realizarem tarefas que normalmente exigiriam inteligência humana.",
-      "dica": "Pense em computadores que aprendem ou tomam decisões sozinhos."
-    },
-    {
-      "enunciado": "Qual é o principal objetivo da criptografia em Segurança da Informação?",
-      "alternativas": [
-        "Gerar senhas aleatórias para qualquer usuário",
-        "Criar redes sociais seguras",
-        "Proteger dados tornando-os ilegíveis sem a chave",
-        "Acelerar a execução de programas"
-      ],
-      "resposta_correta": 2,
-      "explicacao": "A criptografia protege informações, transformando dados em códigos que só podem ser lidos com a chave correta.",
-      "dica": "É como enviar uma carta secreta que só quem tem a chave consegue ler."
-    },
-    {
-      "enunciado": "O que é um shader em Computação Gráfica?",
-      "alternativas": [
-        "Um tipo de teclado virtual",
-        "Um programa que calcula efeitos visuais na GPU",
-        "Uma linguagem de programação para IA",
-        "Um protocolo de rede"
-      ],
-      "resposta_correta": 1,
-      "explicacao": "Shaders são pequenos programas que determinam como a GPU renderiza luz, cor e textura em gráficos 3D.",
-      "dica": "Eles controlam a aparência visual dos objetos em jogos e simulações."
-    },
-    {
-      "enunciado": "O que caracteriza um Sistema Distribuído?",
-      "alternativas": [
-        "Um computador isolado executando tarefas locais",
-        "Vários computadores trabalhando juntos como um único sistema",
-        "Um software que roda apenas em nuvem",
-        "Uma rede de dispositivos móveis sem servidor"
-      ],
-      "resposta_correta": 1,
-      "explicacao": "Sistemas distribuídos consistem em múltiplos computadores interconectados que coordenam tarefas como se fossem um único sistema.",
-      "dica": "Imagine vários computadores cooperando para resolver um problema complexo."
-    },
-    {
-      "enunciado": "O que significa Programação Orientada a Objetos (POO)?",
-      "alternativas": [
-        "Programar utilizando objetos que combinam dados e métodos",
-        "Criar apenas funções sem variáveis",
-        "Programar apenas com números e cálculos",
-        "Programar sem utilizar classes"
-      ],
-      "resposta_correta": 0,
-      "explicacao": "POO é um paradigma que organiza o código em objetos que possuem atributos (dados) e métodos (funções).",
-      "dica": "Pense em objetos do mundo real, como carros ou pessoas, que têm características e ações."
+      "explicacao": "POO melhora organização, reutilização e manutenção do código.",
+      "dica": "Código mais limpo e reaproveitável."
     }
   ]
 }
